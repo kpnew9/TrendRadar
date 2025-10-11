@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-11 21:22:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2166275" target="_blank" class="news-link">上海：加快培育硅光、6G、第四代半导体、类脑智能等产业</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时22分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2166295" target="_blank" class="news-link">三季报业绩抢先看 半导体、风电板块业绩亮眼 还有这些行业值得关注</a> [11] <font color='grey'>- 21时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">游戏</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1954999648604394650" target="_blank" class="news-link">为什么很多买高难度游戏的玩家发现游戏对自己太难了就把游戏放着吃灰，而不是开修改器体验剧情？</a> [18] <font color='grey'>- 21时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9B%9D%E5%8F%99%E5%88%A9%E4%BA%9A%E5%89%8D%E6%80%BB%E7%BB%9F%E9%98%BF%E8%90%A8%E5%BE%B7%E6%B2%89%E8%BF%B7%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F" target="_blank" class="news-link">曝叙利亚前总统阿萨德沉迷电子游戏</a> [29] <font color='grey'>- 21时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">小米 雷军</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2266161" target="_blank" class="news-link">雷军回应小米手机销量超苹果</a> [22] <font color='grey'>- 21时22分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345642&amp;amp;topic_name=%E5%B0%8F%E7%B1%B3SU7%E5%9D%A0%E6%B5%B7%21%E5%88%B9%E8%BD%A6%E5%A4%B1%E7%81%B5%E5%BC%95%E4%BC%97%E7%8C%9C" target="_blank" class="news-link">小米SU7坠海!刹车失灵引众猜</a> [24] <font color='grey'>- 21时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%85%A5%E9%80%89%E5%B9%B4%E5%BA%A6%E6%9C%80%E4%BD%B3%E5%8F%91%E6%98%8E" target="_blank" class="news-link">宇树机器人入选年度最佳发明</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756998" target="_blank" class="news-link">马斯克给出“AI能源”解决方案：电网夜间储能、白天放电，将使美国电力产出翻倍</a> [10] <font color='grey'>- 21时22分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%AE%98%E7%BD%91%E6%8B%BC%E9%94%99AirPods%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D29%26c_type%3D31%26cate%3D5001%26pos%3D29%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E8%258B%25B9%25E6%259E%259C%25E5%25AE%2598%25E7%25BD%2591%25E6%258B%25BC%25E9%2594%2599AirPods%2523%26dgr%3D0%26flag%3D1%26band_rank%3D29%26filter_type%3Drealtimehot%26display_time%3D1760188281%26pre_seqid%3D17601882810990375712208" target="_blank" class="news-link">苹果官网拼错AirPods</a> [29] <font color='grey'>- 21时22分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">足球 苏超</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2266567" target="_blank" class="news-link">苏超球队能踢赢国足吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时22分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%9B%9D%E5%8F%99%E5%88%A9%E4%BA%9A%E5%89%8D%E6%80%BB%E7%BB%9F%E9%98%BF%E8%90%A8%E5%BE%B7%E6%B2%89%E8%BF%B7%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F" target="_blank" class="news-link">曝叙利亚前总统阿萨德沉迷电子游戏</a> [29]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8B%B9%E6%9E%9C%E5%AE%98%E7%BD%91%E6%8B%BC%E9%94%99AirPods%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D29%26c_type%3D31%26cate%3D5001%26pos%3D29%26stream_entry_id%3D31%26lcate%3D5001%26q%3D%2523%25E8%258B%25B9%25E6%259E%259C%25E5%25AE%2598%25E7%25BD%2591%25E6%258B%25BC%25E9%2594%2599AirPods%2523%26dgr%3D0%26flag%3D1%26band_rank%3D29%26filter_type%3Drealtimehot%26display_time%3D1760188281%26pre_seqid%3D17601882810990375712208" target="_blank" class="news-link">苹果官网拼错AirPods</a> [29]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1954999648604394650" target="_blank" class="news-link">为什么很多买高难度游戏的玩家发现游戏对自己太难了就把游戏放着吃灰，而不是开修改器体验剧情？</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
